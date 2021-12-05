@@ -27,7 +27,4 @@ function output(x, y) {
     return m;
 }
 
-function start() {
-    dRoll();
-}
 
