@@ -1,6 +1,6 @@
 // 2 Player Dice Game
-var w1 = 0
-var w2 = 0
+var w1 = 0;
+var w2 = 0;
 function dRoll() {
     var d1 = Math.floor(Math.random() * 6) + 1;
     var d2 = Math.floor(Math.random() * 6) + 1;

@@ -2,32 +2,35 @@
 
 body {
     margin: 0;
-    background-color: green;
+    background-color: darkgreen;
     color: black;
     
 }
 nav {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: darkgreen;
-  border: 3px solid goldenrod;
+  height: auto;
 }
 a {
+  height: 140px;
+  width: 140px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: green;
   text-decoration: none;
   font-size: xx-large;
   color: orange;
-  width: 100%;
   text-align: center;
+  border-radius: 50%;
+  border: 5px solid goldenrod;
+  padding: 50px;
+  margin-top: -5rem;
 }
 a:hover {
   background-color: purple;
-}
-header {
-    border: 3px solid goldenrod;
-    text-align: center;
-    background-color: darkgreen;
-    color: goldenrod;
 }
 main {
     display: flex;
@@ -35,6 +38,11 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 3rem;
+    background-color: green;
+    border-radius: 50%;
+    border: 20px solid green;
+    outline: 10px solid goldenrod;
+    padding-bottom: 2rem;
 }
 .dice {
     width: 80%;
